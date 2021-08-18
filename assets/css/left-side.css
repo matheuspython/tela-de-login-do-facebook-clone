@@ -1,0 +1,39 @@
+.face-infos {
+  width: 50%;
+}
+
+.face-infos .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.face-infos img{
+  width: 300px;
+}
+.face-infos p {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 22px;
+}
+@media screen and (max-width: 980px) {
+  .face-infos {
+    width: 100%;
+  }
+  .face-infos .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 19px auto  ;
+  }
+  .face-infos .container img{
+    margin: 0 auto;
+  }
+  .face-infos .container p{
+    text-align: center;
+  }
+
+}

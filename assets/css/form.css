@@ -1,0 +1,71 @@
+
+.form {
+  width: 100%;
+  max-width: 396px;
+  background-color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+}
+.entrada {
+  width: 98%;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid rgb(209, 206, 206);
+  outline: none;
+  padding: 15px;
+  margin: 5px 0;
+}
+.entrada:focus {
+  border: 1px solid blue;
+}
+.blue {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: .4s;
+  cursor: pointer;
+}
+.blue:hover {
+  background-color: #0d5ec7;
+}
+.form a {
+  color: #5092e9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin: 15px 0;
+}
+.form a:hover {
+  text-decoration: underline;
+}
+.form .line{
+  width: 100%;
+  height: 1px;
+  border: 1px solid rgb(216, 218, 217) ;
+  margin-bottom: 15px;
+}
+.green-btn {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .4s;
+}
+.green-btn:hover {
+  background-color: #3aa026;
+}
+.form-side p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-top: 18px;
+}
+.form-side a {
+  font-weight: bold;
+}
