@@ -1,0 +1,48 @@
+body {
+  background-color: #f0f2f5;
+}
+body > main {
+  width: 100%;
+  padding: 40px 2%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.form {
+  width: 100%;
+  max-width: 396px;
+  background-color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+}
+.entrada {
+  width: 98%;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid rgb(209, 206, 206);
+  outline: none;
+  padding: 15px;
+  margin: 5px 0;
+}
+.entrada:focus {
+  border: 1px solid blue;
+}
+.blue {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: .4s;
+  cursor: pointer;
+}
+.blue:hover {
+  background-color: #0d5ec7;
+}
